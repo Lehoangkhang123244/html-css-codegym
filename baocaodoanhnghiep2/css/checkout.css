@@ -1,0 +1,55 @@
+article {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+article input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+article label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+}
+
+article input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+article input[type="submit"]:hover {
+    background-color: red;
+}
+
+article .col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+}
+
+article .col-75 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+
+article .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
